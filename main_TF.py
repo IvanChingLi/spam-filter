@@ -9,7 +9,7 @@ import csv
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
 
-##This is a test to see how GitHub desktop works.
+##Would changing this comment on github.com change what is locally saved?
 
 def preprocess(readfilename, writefilename):
     print("Preprocessing...")
