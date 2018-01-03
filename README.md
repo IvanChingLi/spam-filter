@@ -1,5 +1,16 @@
 # spam-filter
-I implemented two methods of making a spam filter. The first is hand-coding batch gradient descent logistic regression. The second is using TensorFlow estimator LinearClassifier with FTRL optimizer. There are 3000 labeled training data samples and 2572 labeled test data samples.
+
+Machine learning algorithm applied to spam filter. Achieved accuracy of 96%.
+
+Dependencies:
+- Python 3.6.3
+- numpy==1.13.3
+- tensorflow==1.4.0
+- nltk==3.2.4
+- scikit_learn==0.19.1
+
+
+I implemented two methods. The first is hand-coding batch gradient descent logistic regression. The second is using TensorFlow estimator LinearClassifier with FTRL optimizer. There are 3000 labeled training data samples and 2572 labeled test data samples.
 
 For batch gradient descent logistic regression, we used the logistic loss function:
 
